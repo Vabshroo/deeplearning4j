@@ -123,7 +123,7 @@ public class ModelSelector {
                 netmap.put(ZooType.VGG19, new VGG19(numLabels, seed, workspaceMode));
                 break;
             case DARKNET19:
-                netmap.put(ZooType.DARKNET19, new Darknet19(numLabels, seed, iterations, workspaceMode));
+                netmap.put(ZooType.DARKNET19, new Darknet19(numLabels, seed, workspaceMode));
                 break;
             default:
                 // do nothing
